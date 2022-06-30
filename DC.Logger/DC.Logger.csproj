@@ -1,7 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>   
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Multi purpose logger can log to: Excel,Csv,Json and more</Description>
+    <RepositoryUrl>https://github.com/danielicy/DC.Logger</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Authors>Danieli Cywyak</Authors>
+    <Version>1.0.0.0</Version>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>   
   </PropertyGroup>
 
   <ItemGroup>
