@@ -6,9 +6,10 @@ namespace DC.DataLogger
     public abstract class DataLoggerBase
     {
         protected static string LoggersPath { get; private set; }
-        public DataLoggerBase(string name,string ext)
+        public DataLoggerBase(string name,string ext,string path="")
         {
-            LoggersPath  = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, $"{name}dataLog.{ext}");
+            var lpath = string.IsNullOrEmpty(path) ? AppDomain.CurrentDomain.BaseDirectory : path;
+            LoggersPath  = Path.Combine(lpath, $"{name}dataLog.{ext}");
 
 
             Initialize();
