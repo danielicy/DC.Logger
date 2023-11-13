@@ -6,7 +6,7 @@
     <RepositoryUrl>https://github.com/danielicy/DC.Logger</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Authors>Danieli Cywyak</Authors>
-    <Version>1.1.0.1</Version>
+    <Version>1.1.0.2</Version>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
