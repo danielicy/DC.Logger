@@ -6,11 +6,12 @@
     <RepositoryUrl>https://github.com/danielicy/DC.Logger</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Authors>Danieli Cywyak</Authors>
-    <Version>1.1.0.0</Version>
+    <Version>1.1.0.1</Version>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageReleaseNotes>added optional path parameter. if path is left empty file is written to base directory</PackageReleaseNotes>   
+    <PackageReleaseNotes>added optional path parameter. if path is left empty file is written to base directory</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/users/danielicy/projects/3</PackageProjectUrl>   
   </PropertyGroup>
 
   <ItemGroup>
