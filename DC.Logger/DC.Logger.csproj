@@ -6,10 +6,18 @@
     <RepositoryUrl>https://github.com/danielicy/DC.Logger</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Authors>Danieli Cywyak</Authors>
-    <Version>1.0.0.0</Version>
+    <Version>1.0.1.0</Version>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>   
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>   
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="ExcelDataReader" Version="3.6.0" />

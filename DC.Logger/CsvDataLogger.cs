@@ -11,8 +11,14 @@ namespace DC.DataLogger
 {
     public class CsvDataLogger<T> : DataLoggerBase,IDataLogger<T>
     {
-        
-        public CsvDataLogger(string name) :base(name,"csv")
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name">file name</param>
+        /// <param name="path">optional parameter
+        /// if empty file will be written to base directory
+        /// </param>
+        public CsvDataLogger(string name,string path="") :base(name,"csv",path)
         {
            
         }

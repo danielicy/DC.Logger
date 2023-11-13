@@ -12,7 +12,15 @@ namespace DC.DataLogger
 
         private int _lastRow;
         private static ExcelManger _excel;
-        public ExcelDataLogger(string name) : base(name, "xlsx")
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name">file name</param>
+        /// <param name="path">optional parameter
+        /// if empty file will be written to base directory
+        /// </param>
+        public ExcelDataLogger(string name, string path = "") : base(name, "xlsx",path)
         {
 
            // _excel = new ExcelManger(LoggersPath);

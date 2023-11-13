@@ -11,7 +11,7 @@ namespace DC.DataLogger
     internal class JsonLogger<T> : DataLoggerBase,IDataLogger<T>
     {
         private int _count;
-        public JsonLogger(string name) : base(name,"json")
+        public JsonLogger(string name, string path="") : base(name,"json",path)
         {
            
         }
