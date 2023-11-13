@@ -1,0 +1,1 @@
+﻿Multi purpose logger can log to: Excel,Csv,Json and more
